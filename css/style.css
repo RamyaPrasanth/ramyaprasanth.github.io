@@ -595,6 +595,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline-body > p + p {
   margin-top: 5px;
 }
+.mt-5 {
+  margin-top: 15px;
+}
 
 @media (max-width: 992px) {
   ul.timeline:before {
@@ -863,7 +866,7 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 40px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -871,7 +874,7 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 24px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -1108,10 +1111,12 @@ form label {
 .couple-half .desc-groom {
   padding-right: 180px;
   text-align: right;
+  padding-top: 10%;
 }
 .couple-half .desc-bride {
   padding-left: 180px;
   text-align: left;
+  padding-top: 10%;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
